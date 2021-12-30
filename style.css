@@ -8,6 +8,35 @@
   background-color: #cacaca;
   padding: 10px;
   margin: 50px;
+  display: flex;
+
+  /* Direction from left to the right */
+  /* flex-direction: row;  */
+  /* Direction from the right to the left */
+  /* flex-direction: row-reverse;  */
+  /* Direction from the top to the bottom */
+  /* flex-direction: column; */
+  /* Direction from the bottom to the top */
+  /* flex-direction: column-reverse;  */
+  flex-direction: row; 
+
+  /* Doesn't changes anything about the items alignment */
+  /* justify-content: normal; */
+  /* Align items to the right  */
+  /* justify-content: end; */
+  /* Align items to the end of the DIRECTION  */
+  /* justify-content: flex-end; */
+  /* Align items to the beginning of the DIRECTION  */
+  /* justify-content: flex-start; */
+  /* Align items to the center of the DIRECTION */
+  /* justify-content: center; */
+  /* Makes equal spaces on both sides of the items */
+  /* justify-content: space-around; */
+  /* Divides available space between components */
+  /* justify-content: space-between; */
+  /* Divides available space between the items and its parent also */
+  /* justify-content: space-evenly; */
+  justify-content: space-evenly;
 }
 
 .item {

@@ -18,8 +18,10 @@
   /* flex-direction: column; */
   /* Direction from the bottom to the top */
   /* flex-direction: column-reverse;  */
-  flex-direction: row; 
+  flex-direction: column; 
 
+  /* justify-content align items in the x axis */
+  justify-content: center;
   /* Doesn't changes anything about the items alignment */
   /* justify-content: normal; */
   /* Align items to the right  */
@@ -36,7 +38,19 @@
   /* justify-content: space-between; */
   /* Divides available space between the items and its parent also */
   /* justify-content: space-evenly; */
-  justify-content: space-evenly;
+  
+  /* align-items align items in the y axis */
+  align-items: flex-start;
+  /* Align the items verticaly in the center */
+  /* align-items: center; */
+  /* Align the items verticaly in on the top */
+  /* align-items: flex-start; */
+  /* Align the items verticaly in on the bottom */
+  /* align-items: flex-end; */
+  /* Stretch the items verticaly */
+  /* align-items: stretch; */
+  /* The flexbox items are aligned at the baseline of the cross axis. */
+  /* align-items: baseline; */
 }
 
 .item {
@@ -46,3 +60,11 @@
   padding: 20px;
   margin: 10px;
 }
+
+/* .items-3 {
+  height: 150px;
+}
+
+.items-4 {
+  font-size: 70px;
+} */

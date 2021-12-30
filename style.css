@@ -80,7 +80,10 @@
   /* flex-grow: 10; */
 
   /* flex-basis - Defines the initial size of a flexbox item. */
-  /* flex-basis: 300px; */
+  flex-basis: 300px;
+
+  /* Defines how much a flexbox item should shrink if there's not enough space available */
+  /* flex-shrink: 0; */
 }
 
 .items-4 {

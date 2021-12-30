@@ -18,7 +18,7 @@
   /* flex-direction: column; */
   /* Direction from the bottom to the top */
   /* flex-direction: column-reverse;  */
-  flex-direction: column; 
+  flex-direction: row; 
 
   /* justify-content align items in the x axis */
   justify-content: center;
@@ -59,6 +59,9 @@
   font-size: 35px;
   padding: 20px;
   margin: 10px;
+
+  /* flex-grow - Defines how much a flexbox item should grow if there's space available */
+  flex-grow: 1;
 }
 
 .items-1 {
@@ -74,6 +77,10 @@
 
 .items-3 {
   order: 4;
+  /* flex-grow: 10; */
+
+  /* flex-basis - Defines the initial size of a flexbox item. */
+  /* flex-basis: 300px; */
 }
 
 .items-4 {

@@ -10,6 +10,9 @@
   margin: 50px;
   display: flex;
 
+  /* Defines if flexbox items appear on a single line or on multiple lines within a flexbox container */
+  flex-wrap: wrap;
+
   /* Direction from left to the right */
   /* flex-direction: row;  */
   /* Direction from the right to the left */

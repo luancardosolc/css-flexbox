@@ -64,12 +64,22 @@
 .items-1 {
   /* align-self Works like align-items, but applies only to a single flexbox item, instead of all of them  */
   align-self: flex-end;
+  order: 2;
 }
 
-/* .items-3 {
-  height: 150px;
+.item-2 {
+  /* order - Defines the order of a flexbox item  */
+  order: 1;
+}
+
+.items-3 {
+  order: 4;
 }
 
 .items-4 {
-  font-size: 70px;
-} */
+  order: 3;
+}
+
+.items-5 {
+  order: 5;
+}

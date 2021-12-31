@@ -9,6 +9,11 @@
   padding: 10px;
   margin: 50px;
   display: flex;
+  height: 600px;
+
+  /* Defines how each line is aligned within a flexbox/grid container. 
+  It only applies if flex-wrap: wrap is present, and if there are multiple lines of flexbox/grid items */
+  /* align-content: flex-start; */
 
   /* Defines if flexbox items appear on a single line or on multiple lines within a flexbox container */
   flex-wrap: wrap;
@@ -43,7 +48,7 @@
   /* justify-content: space-evenly; */
   
   /* align-items align items in the y axis */
-  align-items: flex-start;
+  align-items: center;
   /* Align the items verticaly in the center */
   /* align-items: center; */
   /* Align the items verticaly in on the top */
@@ -64,12 +69,12 @@
   margin: 10px;
 
   /* flex-grow - Defines how much a flexbox item should grow if there's space available */
-  flex-grow: 1;
+  /* flex-grow: 1; */
 }
 
 .items-1 {
   /* align-self Works like align-items, but applies only to a single flexbox item, instead of all of them  */
-  align-self: flex-end;
+  /* align-self: flex-end; */
   order: 2;
 }
 
@@ -83,7 +88,7 @@
   /* flex-grow: 10; */
 
   /* flex-basis - Defines the initial size of a flexbox item. */
-  flex-basis: 300px;
+  /* flex-basis: 300px; */
 
   /* Defines how much a flexbox item should shrink if there's not enough space available */
   /* flex-shrink: 0; */
@@ -95,4 +100,5 @@
 
 .items-5 {
   order: 5;
+  flex: 1;
 }
